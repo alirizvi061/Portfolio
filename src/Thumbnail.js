@@ -1,0 +1,22 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './App.css';
+
+function Thumbnail(props) {
+    render() {
+        return (
+            <div className='project'>
+                <h1>Thumbnail</h1>
+                <Link to="">
+                    <div className='project-image'>
+                        <img src="" alt="Project Image" />
+                    </div>
+                    <div className="project-title">""</div>
+                    <div className="project-category">""</div>
+                </Link>
+            </div>
+        );
+    }
+}
+
+export default Thumbnail;
