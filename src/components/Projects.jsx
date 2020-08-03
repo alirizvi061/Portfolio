@@ -4,14 +4,26 @@ import '../App.css'
 
 function Projects(props) {
     return (
-        <div className="">
+        <div>
             <h1>Projects</h1>
-            <Thumbnail
-                link="https://alirizvi061.github.io/"
-                image=""
-                title="LYRA-Trivia App"
-                category="Web Application"
-            />
+            <div className="projects">
+                <div className="project-thumbnail">
+                    <Thumbnail
+                        link="https://alirizvi061.github.io/"
+                        image="LYRA-Question.png"
+                        title="LYRA-Trivia App"
+                    // category="Web Application"
+                    />
+                </div>
+                <div className="project-thumbnail">
+                    <Thumbnail
+                        link="https://rzessentials.herokuapp.com/sessions/new"
+                        image="rzlogin.png"
+                        title="RZEssential Store"
+                    // category="Web Application"
+                    />
+                </div>
+            </div>
         </div>
     )
 }
