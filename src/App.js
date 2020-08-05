@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 // import logo from './logo.svg';
 //Browser Router and Link Components
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Articles from './components/Articles';

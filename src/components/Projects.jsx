@@ -1,30 +1,16 @@
 import React from 'react';
-import Thumbnail from './Thumbnail';
+import { Container } from "react-bootstrap";
 import '../App.css'
 
 function Projects(props) {
     return (
-        <div>
-            <h1>Projects</h1>
+        <Container>
+            <h1 className=" aboutTitle display-1 float-left p-5">Projects</h1><br />
             <div className="projects">
-                <div className="project-thumbnail">
-                    <Thumbnail
-                        link="https://alirizvi061.github.io/"
-                        image="LYRA-Question.png"
-                        title="LYRA-Trivia App"
-                    // category="Web Application"
-                    />
-                </div>
-                <div className="project-thumbnail">
-                    <Thumbnail
-                        link="https://rzessentials.herokuapp.com/sessions/new"
-                        image="rzlogin.png"
-                        title="RZEssential Store"
-                    // category="Web Application"
-                    />
-                </div>
+                <img src="LYRA-Question.png" className="project-thumbnail" alt="project thumbnail" /><br />
+                <img src="rzlogin.png" className="project-thumbnail" alt="project thumbnail" />
             </div>
-        </div>
+        </Container>
     )
 }
 

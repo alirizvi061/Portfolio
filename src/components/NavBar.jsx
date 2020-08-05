@@ -14,6 +14,7 @@ class NavBar extends Component {
                     className="fixed-top"
                 >
                     <Navbar.Brand id="nav-title" href="/">
+                        <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
