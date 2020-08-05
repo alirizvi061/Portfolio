@@ -8,17 +8,17 @@ class NavBar extends Component {
             <Container>
                 <Navbar
                     collapseOnSelect
-                    expand="lg"
+                    expand="md"
                     bg="dark"
                     variant="dark"
                     className="fixed-top"
                 >
                     <Navbar.Brand id="nav-title" href="/">
-                        <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy" />
+                        <img src="logo.png" width="45" height="40" className="d-inline-block align-top" alt="" loading="lazy" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
+                        <Nav className="ml-auto ">
                             <Nav.Link href="/">Portfolio</Nav.Link>
                             <>
                                 <Nav.Link href="/about">About Me</Nav.Link>
