@@ -8,7 +8,7 @@ class About extends Component {
     render() {
         return (
             <Container>
-                <h1 className=" aboutTitle display-3 float-left p-5">About Me</h1>
+                <h1 className=" aboutTitle display-3 float-left p-5">BIO</h1>
 
                 <img src={Picture} className="profilePic" alt="profile" />
 
