@@ -23,6 +23,9 @@ class NavBar extends Component {
                             <>
                                 <Nav.Link href="/about">About Me</Nav.Link>
                             </>
+                            {/* <>
+                                <Nav.Link href="#skills">Skills</Nav.Link>
+                            </> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
