@@ -1,8 +1,8 @@
-.App{
+.App {
   text-align: center;
 }
 
-body{
+body {
   text-align: center;
 }
 
@@ -14,7 +14,7 @@ body{
   display: flex;
   position: fixed;
   flex-direction: row;
-  justify-content: flex-end ;
+  justify-content: flex-end;
   width: 100%;
   height: 25px;
   background-color: black;
@@ -32,14 +32,36 @@ body{
   color: white;
 }
 
-
 /* project thumbnail */
+.aboutTitle,
+.skillsTitle {
+  margin: 3%;
+}
+
+.skillsPics {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  position: relative;
+  top: 214px;
+  right: 164px;
+}
+.language-thumbnail {
+  margin: 5%;
+  display: grid;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+}
 
 .project-thumbnail {
+  border-radius: 5px;
   width: 300px;
   height: 420px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
-    0 22px 70px 4px rgba(0, 0, 0, 0.30), 0 0 0 1px rgba(0, 0, 0, 0.3);
+    0 22px 70px 4px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 .projects {
@@ -49,25 +71,28 @@ body{
   width: 95vw;
 }
 
-
 .flip-picture {
+  border-radius: 5px;
   width: 300px;
   background-color: transparent;
-  perspective:1000px;
+  perspective: 1000px;
   height: 420px;
 }
 
 .flip-card-inner {
+  border-radius: 5px;
   width: 100%;
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: transform 0.6s;
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
+  border-radius: 5px;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -100,7 +125,7 @@ body{
   color: white;
 }
 
-.applink{
+.applink {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -108,9 +133,8 @@ body{
   font-size: 70px;
 }
 
-
 /* About Page */
-.aboutPara{
+.aboutPara {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap-reverse;
@@ -118,7 +142,6 @@ body{
   width: 600px;
   margin-left: 5%;
   margin-top: 50px;
- 
 }
 
 .profilePic {
@@ -126,18 +149,11 @@ body{
   margin-left: 45%;
   width: 600px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
-    0 22px 70px 4px rgba(0, 0, 0, 0.30), 0 0 0 1px rgba(0, 0, 0, 0.3);
+    0 22px 70px 4px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
-.skillsDiv, .skillsTitle{
+.skillsDiv,
+.skillsTitle {
   color: black;
   background-color: white;
 }
-
-.language-thumbnail {
-  margin: 5%;
-  display: grid;
-  flex-direction: row;
-  width: 300px;
-}
-
