@@ -3,6 +3,7 @@
 }
 
 body {
+  margin: 3%;
   text-align: center;
 }
 
@@ -42,18 +43,35 @@ body {
   border-radius: 20px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: black;
   position: relative;
   top: 214px;
   right: 164px;
+  padding: 4%;
 }
+
 .language-thumbnail {
   margin: 5%;
   display: grid;
   flex-direction: row;
-  width: 200px;
-  height: 200px;
+  width: 215px;
+  height: 190px;
+}
+
+.jsLogo {
+  padding: 2%;
+  position: relative;
+  top: 20px;
+}
+
+.expressLogo,
+.flaskLogo {
+  position: relative;
+  top: 50px;
+  width: 180px;
+  height: 100px;
 }
 
 .project-thumbnail {

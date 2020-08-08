@@ -123,7 +123,61 @@ function Projects(props) {
         <br />
         <img
           src="JS-logo.png"
+          className="language-thumbnail jsLogo"
+          alt="project thumbnail"
+        />
+        <br />
+        <img
+          src="react-logo.png"
           className="language-thumbnail"
+          alt="project thumbnail"
+        />
+        <br />
+        <img
+          src="jquery-icon.png"
+          className="language-thumbnail"
+          alt="project thumbnail"
+        />
+        <br />
+        <img
+          src="python-logo.png"
+          className="language-thumbnail"
+          alt="project thumbnail"
+        />
+        <br />
+        <img
+          src="mongo-logo.png"
+          className="language-thumbnail"
+          alt="project thumbnail"
+        />
+        <br />
+        <img
+          src="node-logo.png"
+          className="language-thumbnail"
+          alt="project thumbnail"
+        />
+        <br />
+        <img
+          src="sql-logo.png"
+          className="language-thumbnail"
+          alt="project thumbnail"
+        />
+        <br />
+        <img
+          src="bootstrap-logo.png"
+          className="language-thumbnail"
+          alt="project thumbnail"
+        />
+        <br />
+        <img
+          src="express-logo.jpeg"
+          className="language-thumbnail expressLogo"
+          alt="project thumbnail"
+        />
+        <br />
+        <img
+          src="flask-logo.png"
+          className="language-thumbnail flaskLogo"
           alt="project thumbnail"
         />
         <br />
