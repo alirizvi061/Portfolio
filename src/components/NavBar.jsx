@@ -24,7 +24,7 @@ class NavBar extends Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto ">
+            <Nav className="ml-auto navBarLinks">
               <Nav.Link href="/">Projects</Nav.Link>
               <>
                 <Nav.Link href="/about">About Me</Nav.Link>

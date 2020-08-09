@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/articles" component={Articles} />
         <Route exact path="/about" component={About} />
         <NavBar />
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </Container>
   );

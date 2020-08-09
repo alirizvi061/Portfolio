@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Picture from "./profile-image.PNG";
-import { Container } from "react-bootstrap";
 
 class About extends Component {
   render() {
@@ -9,6 +8,11 @@ class About extends Component {
         <h1 className=" aboutTitle display-3 float-left p-5">BIO</h1>
 
         <img src={Picture} className="profilePic" alt="profile" />
+        <div className="myLinkDiv">
+          <img src="github-logo.png" className="myLinks" alt="github logo" />
+          <img src="linkedin-logo.png" className="myLinks" alt="github logo" />
+          <img src="email-logo.png" className="myLinks" alt="github logo" />
+        </div>
 
         <p className="aboutPara ">
           My name is Ali Rizvi, I am a creative who is in love with creating

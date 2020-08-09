@@ -33,10 +33,20 @@ body {
   color: white;
 }
 
+.navBarLinks {
+  padding: 10px;
+}
+
+.fixed-top {
+  padding-left: 8%;
+  padding-right: 6%;
+}
+
 /* project thumbnail */
 .aboutTitle,
 .skillsTitle {
   margin: 3%;
+  margin-bottom: 0;
 }
 
 .skillsPics {
@@ -49,7 +59,7 @@ body {
   position: relative;
   top: 214px;
   right: 164px;
-  padding: 4%;
+  padding: 1%;
 }
 
 .language-thumbnail {
@@ -148,9 +158,17 @@ body {
   bottom: 0;
   right: 0;
   margin: 70px;
-  font-size: 70px;
+  font-size: 60px;
 }
 
+.gitLink {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  bottom: 5px;
+  left: -10px;
+  margin: 85px;
+}
 /* About Page */
 .aboutPara {
   display: flex;

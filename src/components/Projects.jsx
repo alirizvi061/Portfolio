@@ -30,6 +30,18 @@ function Projects(props) {
                 code on GitHub!{" "}
               </p>
               <a
+                href="https://github.com/alirizvi061/alirizvi061.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="gitLink"
+                  src="github-logo.png"
+                  alt="github logo"
+                />{" "}
+              </a>
+
+              <a
                 href="https://alirizvi061.github.io/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -59,6 +71,17 @@ function Projects(props) {
                 to the app or GitHub to see the code on GitHub!{" "}
               </p>
               <a
+                href="https://github.com/alirizvi061/rzessentials"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="gitLink"
+                  src="github-logo.png"
+                  alt="github logo"
+                />{" "}
+              </a>
+              <a
                 href="https://rzessentials.herokuapp.com/sessions/new"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -76,7 +99,7 @@ function Projects(props) {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src="SUDB-Main-WithMenu.png"
+                src="SUDB-logo.png"
                 className="project-thumbnail"
                 alt="project thumbnail"
               />
@@ -89,6 +112,17 @@ function Projects(props) {
                 category from New York Times - Best Seller's list.! Click the 👉🏼
                 to go to the app or GitHub to see the code on GitHub!{" "}
               </p>
+              <a
+                href="https://github.com/root2point0/SUDB-front-end"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="gitLink"
+                  src="github-logo.png"
+                  alt="github logo"
+                />{" "}
+              </a>
               <a
                 href="https://sudb-front.herokuapp.com"
                 target="_blank"
