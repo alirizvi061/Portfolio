@@ -8,10 +8,23 @@ class About extends Component {
         <h1 className=" aboutTitle display-3 float-left p-5">BIO</h1>
 
         <img src={Picture} className="profilePic" alt="profile" />
+
         <div className="myLinkDiv">
-          <img src="github-logo.png" className="myLinks" alt="github logo" />
-          <img src="linkedin-logo.png" className="myLinks" alt="github logo" />
-          <img src="email-logo.png" className="myLinks" alt="github logo" />
+          <img
+            src="linkedin-logo.png"
+            className="myLinks linkedIn"
+            alt="github logo"
+          />
+          <img
+            src="github-logo.png"
+            className="myLinks gitHub"
+            alt="github logo"
+          />
+          <img
+            src="email-logo.png"
+            className="myLinks email"
+            alt="github logo"
+          />
         </div>
 
         <p className="aboutPara ">
