@@ -24,14 +24,14 @@ class NavBar extends Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto navBarLinks">
+            <Nav className="ml-auto navBarLinks font-weight-bold">
               <Nav.Link href="/">Projects</Nav.Link>
               <>
                 <Nav.Link href="/about">About Me</Nav.Link>
               </>
-              {/* <>
-                                <Nav.Link href="#skills">Skills</Nav.Link>
-                            </> */}
+              <>
+                <Nav.Link href="/resume">Resume</Nav.Link>
+              </>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

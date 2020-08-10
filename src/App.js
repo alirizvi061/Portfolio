@@ -7,7 +7,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
-import Articles from "./components/Articles";
+import Resume from "./components/Resume";
 import About from "./components/About";
 import "./App.css";
 
@@ -16,7 +16,7 @@ function App() {
     <Container fluid>
       <BrowserRouter>
         <Route exact path="/" component={Projects} />
-        <Route exact path="/articles" component={Articles} />
+        <Route exact path="/resume" component={Resume} />
         <Route exact path="/about" component={About} />
         <NavBar />
         <Footer />
