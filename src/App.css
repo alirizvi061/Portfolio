@@ -75,6 +75,7 @@ footer {
 }
 
 .skillsPics {
+  margin-bottom: 2%;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
@@ -283,5 +284,8 @@ footer {
   }
   .aboutPara {
     width: 90vw;
+  }
+  .skillsPics {
+    margin-bottom: 4%;
   }
 }
