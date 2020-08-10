@@ -100,14 +100,6 @@ footer {
   top: 20px;
 }
 
-.expressLogo,
-.flaskLogo {
-  position: relative;
-  top: 50px;
-  width: 180px;
-  height: 100px;
-}
-
 .project-thumbnail {
   border-radius: 5px;
   width: 300px;
@@ -120,7 +112,7 @@ footer {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 95vw;
+  width: 90vw;
 }
 
 .flip-picture {
@@ -268,9 +260,9 @@ footer {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {
   body {
-    /* background-color: lightcoral; */
     text-align: center;
   }
+
   .projects {
     flex-wrap: wrap;
   }
@@ -282,11 +274,8 @@ footer {
     flex-wrap: wrap-reverse;
     align-items: center;
   }
-}
-
-/* @media (max-width: 1000px) {
-  .aboutTitle,
-  .skillsTitle,
-  .resumeTitle {
+  .language-thumbnail {
+    width: 100px;
+    height: 100px;
   }
-} */
+}
