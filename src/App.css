@@ -91,8 +91,8 @@ footer {
   margin: 4%;
   display: grid;
   flex-direction: row;
-  width: 170px;
-  height: 170px;
+  width: 6rem;
+  height: 6rem;
 }
 
 .jsLogo {
@@ -266,6 +266,10 @@ footer {
 
   .projects {
     flex-wrap: wrap;
+  }
+
+  .projectCardDiv {
+    margin: 3%;
   }
   .aboutDiv {
     margin-top: 0;
