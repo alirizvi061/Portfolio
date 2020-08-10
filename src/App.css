@@ -7,6 +7,28 @@ body {
   text-align: center;
 }
 
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#email,
+#linkedIn,
+#gitHub {
+  width: 30px;
+}
+
+#gitHub {
+  width: 62px;
+}
 /* Nav Menu */
 .navigation {
   z-index: 1;
@@ -55,19 +77,18 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 90%;
+  margin-left: 4%;
   background-color: black;
-  position: relative;
-  top: 214px;
-  right: 164px;
   padding: 1%;
 }
 
 .language-thumbnail {
-  margin: 5%;
+  margin: 4%;
   display: grid;
   flex-direction: row;
-  width: 215px;
-  height: 190px;
+  width: 170px;
+  height: 170px;
 }
 
 .jsLogo {
@@ -174,7 +195,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap-reverse;
-  font-size: 30px;
+  font-size: 20px;
   width: 600px;
   margin-left: 5%;
   margin-top: 50px;
@@ -199,7 +220,6 @@ body {
   justify-content: flex-end;
   padding-right: 18%;
   padding-top: 2%;
-  border: 1px solid black;
 }
 
 .myLinks {
@@ -213,4 +233,12 @@ body {
 }
 
 .gitHub {
+  width: 90px;
+  position: relative;
+  bottom: 5px;
+}
+
+.email {
+  position: relative;
+  bottom: 5px;
 }
