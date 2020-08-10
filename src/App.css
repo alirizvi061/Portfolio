@@ -268,7 +268,7 @@ footer {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {
   body {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     text-align: center;
   }
   .projects {
@@ -284,10 +284,9 @@ footer {
   }
 }
 
-@media (min-width: 1200px) {
+/* @media (max-width: 1000px) {
   .aboutTitle,
   .skillsTitle,
   .resumeTitle {
-    text-align: center;
   }
-}
+} */

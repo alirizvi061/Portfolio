@@ -11,7 +11,7 @@ function Projects(props) {
     <>
       <header></header>
       <main>
-        <h1 className=" aboutTitle display-3 float-left p-5">Projects</h1>
+        <h1 className=" aboutTitle display-3 p-5 text-lg-left">Projects</h1>
         <br />
         <div className="projects">
           <div className="flip-picture">
@@ -142,7 +142,7 @@ function Projects(props) {
         </div>
         <Link name="skills"></Link>
         <div className="skillsDiv">
-          <h1 className=" skillsTitle display-3 float-left p-5">Skills</h1>
+          <h1 className=" skillsTitle display-3 p-5 text-lg-left">Skills</h1>
         </div>
         <br />
         <div className="skillsPics">

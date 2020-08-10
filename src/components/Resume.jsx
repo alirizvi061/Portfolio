@@ -3,7 +3,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <h1 className=" resumeTitle display-3 float-left p-5">Resume</h1>
+        <h1 className=" resumeTitle display-3 p-5 text-lg-left">Resume</h1>
         <img className="resumePic" src="resume.png" alt="Resume" />
       </div>
     );

@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <>
-        <h1 className=" aboutTitle display-3 float-left p-5">BIO</h1>
+        <h1 className=" aboutTitle display-3 p-5 text-lg-left">BIO</h1>
         <div className="aboutDiv">
           <p className="aboutPara ">
             My name is Ali Rizvi, I am a creative who is in love with creating
