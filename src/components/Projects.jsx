@@ -28,8 +28,8 @@ function Projects(props) {
                 <div className="flip-card-back">
                   <p className="flip-card-back-text">
                     The LYRA-Trivia project is a versitile single-page trivia
-                    game that pulls challenging questions from an API and scores
-                    user's responses! Click the 👉🏼 to go to the app or GitHub to
+                    game that pulls challenging questions from the opentdb.com API and scores
+                    user's responses! User can gain upto 10 points before choosing to endgame or restart. How many points can you gain? Click the 👉🏼 to go to the app or GitHub to
                     see the code on GitHub!{" "}
                   </p>
                   <a
@@ -71,8 +71,8 @@ function Projects(props) {
                 </div>
                 <div className="flip-card-back">
                   <p className="flip-card-back-text">
-                    RZEssentials is a community store that allows creatives to
-                    come together, list and buy items off the store! Click the
+                    RZEssentials is a community store that allows creatives from all walks of life to
+                    come together, list and buy items off the store! This community is built to allow collaboration between artists and finds a better home for un-used items rather than throwing them away! Click the
                     👉🏼 to go to the app or GitHub to see the code on GitHub!{" "}
                   </p>
                   <a
@@ -145,10 +145,50 @@ function Projects(props) {
               </div>
             </div>
           </div>
+
+          <div className="projectCardDiv">
+            <div className="flip-picture">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    src="picngoimg.png"
+                    className="project-thumbnail"
+                    alt="project thumbnail"
+                  />
+                </div>
+                <div className="flip-card-back">
+                  <p className="flip-card-back-text">
+                    The PIC-N-GO web application posseses a massive gallery of images generated from the Flickr API. It allows users create a personal account and search for pictures of destinations they want to visit, write notes on the picture for future use, and add them to their own personal bucket list. Click the 👉🏼 to go to the app or GitHub to see the code on GitHub!{" "}
+                  </p>
+                  <a
+                    href="https://github.com/alirizvi061/pic-n-go"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="gitLink"
+                      src="github-logo.png"
+                      alt="github logo"
+                    />{" "}
+                  </a>
+                  <a
+                    href="https://pic-n-go.herokuapp.com/home"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    <span className="applink" role="img" aria-label="Link">
+                      👉🏼
+                    </span>{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <Link name="skills"></Link>
         <div className="skillsDiv">
-          <h1 className=" skillsTitle display-3 p-5 text-lg-left">Skills</h1>
+          <h1 id='skills' className=" skillsTitle display-3 p-5 text-lg-left">Skills</h1>
         </div>
         <br />
         <div className="skillsPics">

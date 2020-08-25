@@ -26,6 +26,7 @@ class NavBar extends Component {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto navBarLinks font-weight-bold">
               <Nav.Link href="/">Projects</Nav.Link>
+              {/* <Nav.Link href="#skills">Skills</Nav.Link> */}
               <>
                 <Nav.Link href="/about">About Me</Nav.Link>
               </>
