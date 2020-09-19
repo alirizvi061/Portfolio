@@ -28,9 +28,11 @@ function Projects(props) {
                 <div className="flip-card-back">
                   <p className="flip-card-back-text">
                     The LYRA-Trivia project is a versitile single-page trivia
-                    game that pulls challenging questions from the opentdb.com API and scores
-                    user's responses! User can gain upto 10 points before choosing to endgame or restart. How many points can you gain? Click the 👉🏼 to go to the app or GitHub to
-                    see the code on GitHub!{" "}
+                    game that pulls challenging questions from the opentdb.com
+                    API and scores user's responses! User can gain upto 10
+                    points before choosing to endgame or restart. How many
+                    points can you gain? Click the 👉🏼 to go to the app or GitHub
+                    to see the code on GitHub!{" "}
                   </p>
                   <a
                     href="https://github.com/alirizvi061/alirizvi061.github.io"
@@ -71,9 +73,12 @@ function Projects(props) {
                 </div>
                 <div className="flip-card-back">
                   <p className="flip-card-back-text">
-                    RZEssentials is a community store that allows creatives from all walks of life to
-                    come together, list and buy items off the store! This community is built to allow collaboration between artists and finds a better home for un-used items rather than throwing them away! Click the
-                    👉🏼 to go to the app or GitHub to see the code on GitHub!{" "}
+                    RZEssentials is a community store that allows creatives from
+                    all walks of life to come together, list and buy items off
+                    the store! This community is built to allow collaboration
+                    between artists and finds a better home for un-used items
+                    rather than throwing them away! Click the 👉🏼 to go to the
+                    app or GitHub to see the code on GitHub!{" "}
                   </p>
                   <a
                     href="https://github.com/alirizvi061/rzessentials"
@@ -146,7 +151,7 @@ function Projects(props) {
             </div>
           </div>
 
-          <div className="projectCardDiv">
+          {/* <div className="projectCardDiv">
             <div className="flip-picture">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -184,11 +189,13 @@ function Projects(props) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <Link name="skills"></Link>
         <div className="skillsDiv">
-          <h1 id='skills' className=" skillsTitle display-3 p-5 text-lg-left">Skills</h1>
+          <h1 id="skills" className=" skillsTitle display-3 p-5 text-lg-left">
+            Skills
+          </h1>
         </div>
         <br />
         <div className="skillsPics">
