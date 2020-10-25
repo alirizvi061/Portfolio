@@ -26,14 +26,19 @@ function Projects(props) {
                   <br />
                 </div>
                 <div className="flip-card-back">
-                  <p className="flip-card-back-text">
-                    The LYRA-Trivia project is a versitile single-page trivia
-                    game that pulls challenging questions from the opentdb.com
-                    API and scores user's responses! User can gain upto 10
-                    points before choosing to endgame or restart. How many
-                    points can you gain? Click the 👉🏼 to go to the app or GitHub
+                  <div className="flip-card-back-text">
+                    <p>
+                      The LYRA-Trivia project is a versitile single-page trivia
+                      game that pulls challenging questions from the opentdb.com
+                      API and scores user's responses! User can gain upto 10
+                      points before choosing to endgame or restart. How many
+                      points can you gain? Click the 👉🏼 to go to the app or GitHub
                     to see the code on GitHub!{" "}
-                  </p>
+                    </p>
+                    <p>
+                      Technologies used: HTML, CSS, JavaScript, JQuery, AJAX, & GitHub Pages.
+                    </p>
+                  </div>
                   <a
                     href="https://github.com/alirizvi061/alirizvi061.github.io"
                     target="_blank"
@@ -72,14 +77,19 @@ function Projects(props) {
                   />
                 </div>
                 <div className="flip-card-back">
-                  <p className="flip-card-back-text">
-                    RZEssentials is a community store that allows creatives from
-                    all walks of life to come together, list and buy items off
-                    the store! This community is built to allow collaboration
-                    between artists and finds a better home for un-used items
-                    rather than throwing them away! Click the 👉🏼 to go to the
+                  <div className="flip-card-back-text">
+                    <p>
+                      RZEssentials is a community store that allows creatives from
+                      all walks of life to come together, list and buy items off
+                      the store! This community is built to allow collaboration
+                      between artists and finds a better home for un-used items
+                      rather than throwing them away! Click the 👉🏼 to go to the
                     app or GitHub to see the code on GitHub!{" "}
-                  </p>
+                    </p>
+                    <p>
+                      Technologies used: HTML, CSS, JavaScript, EJS, MongoDB, Axios, GitHub, & Heroku
+                    </p>
+                  </div>
                   <a
                     href="https://github.com/alirizvi061/rzessentials"
                     target="_blank"
@@ -117,14 +127,20 @@ function Projects(props) {
                   />
                 </div>
                 <div className="flip-card-back">
-                  <p className="flip-card-back-text">
-                    The SUDB web application boasts a plethora of books using
-                    the Google Books api and an amazing "Blind Date with a Book"
-                    feature that allows the user to pick a random book of their
-                    favorite category from New York Times - Best Seller's list.!
-                    Click the 👉🏼 to go to the app or GitHub to see the code on
+                  <div className="flip-card-back-text">
+                    <p>
+                      The SUDB web application boasts a plethora of books using
+                      the Google Books api and an amazing "Blind Date with a Book"
+                      feature that allows the user to pick a random book of their
+                      favorite category from New York Times - Best Seller's list.!
+                      Click the 👉🏼 to go to the app or GitHub to see the code on
                     GitHub!{" "}
+                    </p>
+                    <p>
+                      Technologies used: HTML, CSS, ReactJS, Google Books & New York Time Bestseller API, NodeJS, MongoDB, Heroku.
                   </p>
+                  </div>
+
                   <a
                     href="https://github.com/root2point0/SUDB-front-end"
                     target="_blank"
@@ -150,7 +166,55 @@ function Projects(props) {
               </div>
             </div>
           </div>
+          <div className="projectCardDiv">
+            <div className="flip-picture">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    src="beigecashmerewebsite.png"
+                    className="project-thumbnail"
+                    alt="project thumbnail"
+                  />
+                  <br />
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-text">
+                    <p>
+                      Beige Cashmere is your destination for all your video production & photography needs! Click the 👉🏼 to go to the website or GitHub
+                    to see the code on GitHub!{" "}
 
+                    </p>
+                    <p>
+                      Technologies used: HTML, CSS, ReactJS, GitHub, Vimeo Integration, Email Integration, & Heroku
+                  </p>
+                  </div>
+
+                  <a
+                    href="https://github.com/alirizvi061/beigecashmere"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="gitLink"
+                      src="github-logo.png"
+                      alt="github logo"
+                    />{" "}
+                  </a>
+
+                  <a
+                    href="http://www.beigecashmere.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    <span className="applink" role="img" aria-label="Link">
+                      👉🏼
+                    </span>{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           {/* <div className="projectCardDiv">
             <div className="flip-picture">
               <div className="flip-card-inner">
@@ -191,6 +255,7 @@ function Projects(props) {
             </div>
           </div> */}
         </div>
+
         <Link name="skills"></Link>
         <div className="skillsDiv">
           <h1 id="skills" className=" skillsTitle display-3 p-5 text-lg-left">
