@@ -22,14 +22,16 @@ footer {
   justify-content: center;
 }
 
-#email,
-#linkedIn,
-#gitHub {
-  width: 30px;
+
+#linkedIn{
+  width: 35px;
 }
 
+#email{
+  width: 40px;
+}
 #gitHub {
-  width: 62px;
+  width: 70px;
 }
 /* Nav Menu */
 .navigation {
@@ -76,7 +78,7 @@ footer {
 
 .skillsPics {
   margin-bottom: 2%;
-  border-radius: 20px;
+  border-radius: 4px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -87,12 +89,22 @@ footer {
   padding: 1%;
 }
 
+.skillsText{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .language-thumbnail {
-  margin: 4%;
-  display: grid;
-  flex-direction: row;
-  width: 6rem;
-  height: 6rem;
+  object-fit: cover;
+  /* margin: 4%; */
+  /* display: grid; */
+  /* flex-direction: row; */
+  /* max-width: 6rem; */
+  max-width: 100px;
+  max-height: 100px;
+  /* max-height: 50%; */
 }
 
 .jsLogo {
@@ -158,7 +170,7 @@ footer {
   display: flex;
   justify-content: center;
   color: white;
-  background-color: #2980b9;
+  background-color: #0076B9;
   transform: rotateY(180deg);
 }
 
@@ -174,7 +186,7 @@ footer {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin: 70px;
+  margin: 45px;
   font-size: 60px;
 }
 
@@ -184,7 +196,7 @@ footer {
   position: absolute;
   bottom: 5px;
   left: -10px;
-  margin: 85px;
+  margin: 61px;
 }
 
 .website-thumbnail {
@@ -204,7 +216,7 @@ footer {
 }
 
 .profilePic {
-  border-radius: 15px;
+  border-radius: 10px;
   width: 50%;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
     0 22px 70px 4px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
@@ -283,15 +295,11 @@ footer {
   .aboutDiv {
     margin-top: 0;
     display: flex;
-    /* flex-direction: column-reverse; */
     justify-content: reverse;
     flex-wrap: wrap-reverse;
     align-items: center;
   }
-  .language-thumbnail {
-    width: 100px;
-    height: 100px;
-  }
+ 
   .resumePic {
     width: 90vw;
   }
@@ -302,3 +310,5 @@ footer {
     margin-bottom: 4%;
   }
 }
+
+

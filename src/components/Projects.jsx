@@ -1,11 +1,28 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import "../App.css";
 
 function Projects(props) {
   const emoji = require("emoji-dictionary");
   console.log(emoji.getName("😍"));
+
+
+  const images = [
+    [
+      { pic: "HTML5_Badge_512.png", title: "HTML" },
+      { pic: "cssImage.png", title: "CSS" },
+      { pic: "JS-logo.png", title: "JavaScript" },
+      { pic: "react-logo.png", title: "React" },
+      { pic: "jquery-icon.png", title: "jQuery" },
+      { pic: "python-logo.png", title: "Python" },
+      { pic: "mongo-logo.png", title: "MongoDB" },
+      { pic: "node-logo.png", title: "NodeJS" },
+      { pic: "sql-logo.png", title: "SQL" },
+      { pic: "bootstrap-logo.png", title: "Bootstrap" },
+      { pic: "express-logo.jpeg", title: "ExpressJS" },
+      { pic: "flask-logo.png", title: "Flask" },
+    ]
+  ]
 
   return (
     <>
@@ -39,28 +56,30 @@ function Projects(props) {
                       Technologies used: HTML, CSS, JavaScript, JQuery, AJAX, & GitHub Pages.
                     </p>
                   </div>
-                  <a
-                    href="https://github.com/alirizvi061/alirizvi061.github.io"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="gitLink"
-                      src="github-logo.png"
-                      alt="github logo"
-                    />{" "}
-                  </a>
+                  <div className="cardLogoDiv">
+                    <a
+                      href="https://github.com/alirizvi061/alirizvi061.github.io"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        className="gitLink"
+                        src="github-logo.png"
+                        alt="github logo"
+                      />{" "}
+                    </a>
 
-                  <a
-                    href="https://alirizvi061.github.io/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <span className="applink" role="img" aria-label="Link">
-                      👉🏼
+                    <a
+                      href="https://alirizvi061.github.io/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      <span className="applink" role="img" aria-label="Link">
+                        👉🏼
                     </span>{" "}
-                  </a>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -256,86 +275,41 @@ function Projects(props) {
           </div> */}
         </div>
 
-        <Link name="skills"></Link>
-        <div className="skillsDiv">
-          <h1 id="skills" className=" skillsTitle display-3 p-5 text-lg-left">
-            Skills
+
+        <div>
+          <div className="skillsDiv">
+            <h1 id="skills" className=" skillsTitle display-3 p-5 text-lg-left">
+              Skills
           </h1>
-        </div>
-        <br />
-        <div className="skillsPics">
-          <img
-            src="HTML5_Logo.svg"
-            className="language-thumbnail"
-            alt="project thumbnail"
-          />
+          </div>
           <br />
-          <img
-            src="CSS3_logo.svg"
-            className="language-thumbnail"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="JS-logo.png"
-            className="language-thumbnail jsLogo"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="react-logo.png"
-            className="language-thumbnail"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="jquery-icon.png"
-            className="language-thumbnail"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="python-logo.png"
-            className="language-thumbnail"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="mongo-logo.png"
-            className="language-thumbnail"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="node-logo.png"
-            className="language-thumbnail"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="sql-logo.png"
-            className="language-thumbnail"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="bootstrap-logo.png"
-            className="language-thumbnail"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="express-logo.jpeg"
-            className="language-thumbnail expressLogo"
-            alt="project thumbnail"
-          />
-          <br />
-          <img
-            src="flask-logo.png"
-            className="language-thumbnail flaskLogo"
-            alt="project thumbnail"
-          />
-          <br />
+          {images.map((row, index) => {
+            console.log(row[index])
+            return (
+              <>
+                <div className="skillsPics" key={index}>
+                  {row.map((picture) => {
+                    console.log(picture.pic)
+                    return (
+                      <div className="skillsText">
+                        <div>
+                          <img
+                            src={picture.pic}
+                            className="language-thumbnail"
+                            alt="project thumbnail"
+                          />
+                        </div>
+                        <h5 className="flip-card-back-text">{picture.title}</h5>
+                      </div>
+                    )
+
+                  })}
+
+                </div>
+
+              </>
+            )
+          })}
         </div>
       </main>
     </>
