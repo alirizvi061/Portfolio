@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <span>ALI RIZVI 2020 </span>
+        <span>ALI RIZVI 2021</span>
         <div className="footerLinks">
           <a
             href="https://www.linkedin.com/in/rizvisyedali/"
