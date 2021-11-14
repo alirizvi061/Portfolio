@@ -18,10 +18,10 @@ function App() {
     <Container fluid>
         <Navigation />
         <BrowserRouter>
-          <Route exact path="/" component={Projects} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/projects" component={Projects} />
         </BrowserRouter>
         <Footer />
     </Container>
