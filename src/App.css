@@ -13,10 +13,10 @@ body {
 
 /* Navigation */
 .navigation{
-  position: absolute;
+  position: fixed;
   z-index: 10;
   background-color: #181818;
-  width: 9em;
+  width: 8em;
   height: 100em;
   right: 0;
   top: 0;
@@ -58,10 +58,11 @@ body {
   bottom: 0px;
   right: 0px;
   left: 0px;
-  line-height: 0px;
+  line-height: 40px;
   word-spacing: 0px;
   text-align: left;
   padding: 7%;
+  font-size: 4vw;
 }
 .Intro_text div{
   padding: 10%;
@@ -72,8 +73,23 @@ body {
   color: #0afffa;
   border: 3px solid #0afffa;
   padding: 2.6%;
+  font-size: 2vw;
 }
 
+.Intro_text button:hover{
+  color: #1d1d1d;
+  background-color: #0afffa;
+  transition-duration: 0.3s, 0.3s;
+}
+
+.home_bio{
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  text-align: left;
+  margin-left: 10%;
+}
 
 /* Home Page  */
 
@@ -286,7 +302,8 @@ body {
 
 .profilePic {
   border-radius: 10px;
-  width: 50%;
+  width: 30em;
+  margin-right: 10em;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
     0 22px 70px 4px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
 }

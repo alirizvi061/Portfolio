@@ -6,12 +6,14 @@ class Navigation extends Component {
         return (
             <div class="navigation">
                 <div>
-                    <img class="logo" src="Ali_logo.png" alt="Logo" />
+                    <a href="/">
+                        <img class="logo" src="Ali_logo.png" alt="Logo" />
+                    </a>
                 </div>
                 <nav class="nav_links_div">
-                    <a href="" class="link_text">About</a>
+                    <a href="/about" class="link_text">About</a>
                     <a href="" class="link_text">My Skills</a>
-                    <a href="" class="link_text">Work</a>
+                    <a href="/work" class="link_text">Work</a>
                     <a href="" class="link_text">Contact</a>
                 </nav>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import About from './About'
 import { Component } from 'react';
 
 class Home extends Component {
@@ -7,11 +8,14 @@ class Home extends Component {
             <>
                 <div class="Intro_text">
                     <div>
-                        <h1>Hi,</h1><br />
-                        <h1>I'm Ali,</h1><br />
-                        <h1>Full-Stack Software Engineer</h1><br />
+                        <p>Hi,</p><br />
+                        <p>I'm Ali,</p><br />
+                        <p>Full-Stack Software Engineer</p><br />
                         <button>Contact Me!</button>
                     </div>
+                </div>
+                <div class="home_bio">
+                    <About />
                 </div>
             </>
         )
