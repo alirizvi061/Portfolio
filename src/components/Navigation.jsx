@@ -9,12 +9,12 @@ class Navigation extends Component {
                     <a href="/">
                         <img class="logo" src="Ali_logo.png" alt="Logo" />
                     </a>
-                </div>
+                </div><br />
                 <nav class="nav_links_div">
                     <a href="/about" class="link_text">About</a>
-                    <a href="" class="link_text">My Skills</a>
+                    <a href="/" class="link_text">My Skills</a>
                     <a href="/work" class="link_text">Work</a>
-                    <a href="" class="link_text">Contact</a>
+                    <a href="/" class="link_text">Contact</a>
                 </nav>
 
             </div>

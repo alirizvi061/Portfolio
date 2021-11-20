@@ -8,7 +8,7 @@ body {
   font-family: "Dosis", sans-serif;
   background-color: #1d1d1d;
   color: white;
-  margin-bottom: 100px;
+  margin-right: 9rem;
 }
 
 /* Navigation */
@@ -48,8 +48,9 @@ body {
   height: auto;
   border: 1px solid #0afffa;
 }
-
 /* Navigation */
+
+
 /* Home Page  */
 .Intro_text{
   width: 70vw;
@@ -58,14 +59,15 @@ body {
   bottom: 0px;
   right: 0px;
   left: 0px;
-  line-height: 40px;
-  word-spacing: 0px;
+  line-height: 3rem;
+  word-spacing: 0;
   text-align: left;
-  padding: 7%;
+  padding: 10%;
   font-size: 4vw;
 }
+
 .Intro_text div{
-  padding: 10%;
+  padding: 3%;
 }
 
 .Intro_text button{
@@ -81,16 +83,6 @@ body {
   background-color: #0afffa;
   transition-duration: 0.3s, 0.3s;
 }
-
-.home_bio{
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  text-align: left;
-  margin-left: 10%;
-}
-
 /* Home Page  */
 
 .footer {
@@ -154,7 +146,6 @@ body {
 }
 
 /* project thumbnail */
-.aboutTitle,
 .skillsTitle,
 .resumeTitle {
   margin: 3%;
@@ -293,27 +284,38 @@ body {
 }
 
 /* About Page */
+
+.aboutDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
 .aboutPara {
   font-size: 22px;
-  width: 40%;
-  margin-left: 1%;
   margin-top: 50px;
+  text-align: left;
 }
 
 .profilePic {
   border-radius: 10px;
   width: 30em;
-  margin-right: 10em;
+  margin: 3%;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
     0 22px 70px 4px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
-.aboutDiv {
+.aboutMePage{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  /* width: 99%; */
-  margin-bottom: 5%;
+  flex-direction: column;
+  margin: 12%;
+  margin-right: 0;
+}
+
+.aboutTitle{
+  text-align: left;
+  font-size: 5rem;
 }
 
 .skillsDiv,
