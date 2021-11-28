@@ -1,3 +1,5 @@
+// type rcc to get react boilerplate
+
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
@@ -11,7 +13,8 @@ import Resume from "./components/Resume";
 import About from "./components/About";
 import "./App.css";
 import Home from "./components/Home";
-import Navigation from "./components/Navigation"
+import Navigation from "./components/Navigation";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/about" component={About} />
           <Route exact path="/work" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
         </BrowserRouter>
         {/* <Footer /> */}
     </Container>

@@ -14,7 +14,7 @@ class Navigation extends Component {
                     <a href="/about" class="link_text">About</a>
                     <a href="/" class="link_text">My Skills</a>
                     <a href="/work" class="link_text">Work</a>
-                    <a href="/" class="link_text">Contact</a>
+                    <a href="/contact" class="link_text">Contact</a>
                 </nav>
 
             </div>
