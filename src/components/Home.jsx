@@ -7,12 +7,10 @@ class Home extends Component {
         return (
             <>
                 <div class="Intro_text">
-                    <div>
-                        <p>Hi,</p><br />
-                        <p>I'm Ali,</p><br />
-                        <p>Full-Stack Software Engineer</p><br />
-                        <button>Contact Me!</button>
-                    </div>
+                    <p>Hi,</p>
+                    <p>I'm Ali,</p>
+                    <p>Full-Stack Software Engineer</p>
+                    <button>Contact Me!</button>
                 </div>
                 <div class="home_bio">
                     <About />

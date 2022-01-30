@@ -23,13 +23,15 @@ export default class Contact extends Component {
         return (
             <div>
                 <h1 className="aboutTitle">Contact Me!</h1>
-                <form id="contactForm" onSubmit={sendEmail}>
-                    <input type="text" placeholder="Name" name="Name" />
-                    <input type="text" placeholder="Email" name="Email" />
-                    <input type="text" placeholder="Subject" name="Subject" />
-                    <input type="text" placeholder="Message" name="Message" />
-                    <input type="Submit" value="Send Message" />
-                </form>
+                <div>
+                    <form class="contact_form_class" id="contactForm" onSubmit={sendEmail}>
+                        <input class="contactTextBox" type="text" placeholder="Name" name="Name" />
+                        <input class="contactTextBox" type="email" placeholder="Email" name="Email" />
+                        <input class="contactTextBox" type="text" placeholder="Subject" name="Subject" />
+                        <textarea id="contact_message_area" type="text" placeholder="Message" name="Message" ></textarea>
+                        <input type="Submit" value="Send Message" />
+                    </form>
+                </div>
             </div>
         )
     }
