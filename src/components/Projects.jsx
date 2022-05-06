@@ -49,8 +49,8 @@ function Projects(props) {
                       game that pulls challenging questions from the opentdb.com
                       API and scores user's responses! User can gain upto 10
                       points before choosing to endgame or restart. How many
-                      points can you gain? Click the 👉🏼 to go to the app or GitHub
-                      to see the code on GitHub!{" "}
+                      points can you gain? Click the <span className="applink" role="img" aria-label="Link">👉🏼</span> to go to the app or GitHub
+                      to see the code on GitHub!
                     </p>
                     <p>
                       Technologies used: HTML, CSS, JavaScript, JQuery, AJAX, & GitHub Pages.
@@ -66,7 +66,7 @@ function Projects(props) {
                         className="gitLink"
                         src="github-logo.png"
                         alt="github logo"
-                      />{" "}
+                      />
                     </a>
 
                     <a
@@ -74,10 +74,10 @@ function Projects(props) {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {" "}
+
                       <span className="applink" role="img" aria-label="Link">
                         👉🏼
-                      </span>{" "}
+                      </span>
                     </a>
                   </div>
                 </div>
@@ -102,8 +102,8 @@ function Projects(props) {
                       all walks of life to come together, list and buy items off
                       the store! This community is built to allow collaboration
                       between artists and finds a better home for un-used items
-                      rather than throwing them away! Click the 👉🏼 to go to the
-                      app or GitHub to see the code on GitHub!{" "}
+                      rather than throwing them away! Click the <span className="applink" role="img" aria-label="Link">👉🏼</span> to go to the
+                      app or GitHub to see the code on GitHub!
                     </p>
                     <p>
                       Technologies used: HTML, CSS, JavaScript, EJS, MongoDB, Axios, GitHub, & Heroku
@@ -118,17 +118,16 @@ function Projects(props) {
                       className="gitLink"
                       src="github-logo.png"
                       alt="github logo"
-                    />{" "}
+                    />
                   </a>
                   <a
                     href="https://rzessentials.herokuapp.com/sessions/new"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
                     <span className="applink" role="img" aria-label="Link">
                       👉🏼
-                    </span>{" "}
+                    </span>
                   </a>
                 </div>
               </div>
@@ -152,8 +151,8 @@ function Projects(props) {
                       the Google Books api and an amazing "Blind Date with a Book"
                       feature that allows the user to pick a random book of their
                       favorite category from New York Times - Best Seller's list.!
-                      Click the 👉🏼 to go to the app or GitHub to see the code on
-                      GitHub!{" "}
+                      Click the <span className="applink" role="img" aria-label="Link">👉🏼</span> to go to the app or GitHub to see the code on
+                      GitHub!
                     </p>
                     <p>
                       Technologies used: HTML, CSS, ReactJS, Google Books & New York Time Bestseller API, NodeJS, MongoDB, Heroku.
@@ -169,17 +168,17 @@ function Projects(props) {
                       className="gitLink"
                       src="github-logo.png"
                       alt="github logo"
-                    />{" "}
+                    />
                   </a>
                   <a
                     href="https://sudb-front.herokuapp.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+
                     <span className="applink" role="img" aria-label="Link">
                       👉🏼
-                    </span>{" "}
+                    </span>
                   </a>
                 </div>
               </div>
@@ -199,8 +198,8 @@ function Projects(props) {
                 <div className="flip-card-back">
                   <div className="flip-card-back-text">
                     <p>
-                      Beige Cashmere is your destination for all your video production & photography needs! Click the 👉🏼 to go to the website or GitHub
-                      to see the code on GitHub!{" "}
+                      Beige Cashmere is your destination for all your video production & photography needs! Click the <span className="applink" role="img" aria-label="Link">👉🏼</span> to go to the website or GitHub
+                      to see the code on GitHub!
 
                     </p>
                     <p>
@@ -217,7 +216,7 @@ function Projects(props) {
                       className="gitLink"
                       src="github-logo.png"
                       alt="github logo"
-                    />{" "}
+                    />
                   </a>
 
                   <a
@@ -225,10 +224,10 @@ function Projects(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+
                     <span className="applink" role="img" aria-label="Link">
                       👉🏼
-                    </span>{" "}
+                    </span>
                   </a>
                 </div>
               </div>
@@ -246,9 +245,7 @@ function Projects(props) {
                 </div>
                 <div className="flip-card-back">
                   <p className="flip-card-back-text">
-                    The Netflix web application posseses a massive library of movies whose thumbnails and banners are aggregated from the image.tmdb.org API. It uses movie information provided by image.tmdb.org API in conjunction with api.themoviedb.org API to retrieve movie's trailer if available on YouTube. Click the <span className="applink" role="img" aria-label="Link">
-                      👉🏼
-                    </span> to go to the app or GitHub to see the code on GitHub!{" "}
+                    The Netflix web application posseses a massive library of movies whose thumbnails and banners are aggregated from the image.tmdb.org API. It uses movie information provided by image.tmdb.org API in conjunction with api.themoviedb.org API to retrieve movie's trailer if available on YouTube. This application is deployed using Google Firebase. Click the <span className="applink" role="img" aria-label="Link">👉🏼</span> to go to the app or GitHub to see the code on GitHub!
                   </p>
                   <a
                     href="https://github.com/alirizvi061/fe-netflix"
@@ -266,18 +263,15 @@ function Projects(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-
                     <span className="applink" role="img" aria-label="Link">
                       👉🏼
-                    </span>{" "}
+                    </span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
 
         <div>
           <div className="skillsDiv">
@@ -287,12 +281,10 @@ function Projects(props) {
           </div>
           <br />
           {images.map((row, index) => {
-            console.log(row[index])
             return (
               <>
                 <div className="skillsPics" key={index}>
                   {row.map((picture) => {
-                    console.log(picture.pic)
                     return (
                       <div className="skillsText">
                         <div>
@@ -305,11 +297,8 @@ function Projects(props) {
                         <h5 className="flip-card-back-text">{picture.title}</h5>
                       </div>
                     )
-
                   })}
-
                 </div>
-
               </>
             )
           })}
