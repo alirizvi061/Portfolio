@@ -20,6 +20,7 @@ export default class Contact extends Component {
                 });
         }
 
+
         return (
             <div>
                 <h1 className="aboutTitle">Contact Me!</h1>

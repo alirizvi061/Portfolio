@@ -50,7 +50,7 @@ function Projects(props) {
                       API and scores user's responses! User can gain upto 10
                       points before choosing to endgame or restart. How many
                       points can you gain? Click the 👉🏼 to go to the app or GitHub
-                    to see the code on GitHub!{" "}
+                      to see the code on GitHub!{" "}
                     </p>
                     <p>
                       Technologies used: HTML, CSS, JavaScript, JQuery, AJAX, & GitHub Pages.
@@ -77,7 +77,7 @@ function Projects(props) {
                       {" "}
                       <span className="applink" role="img" aria-label="Link">
                         👉🏼
-                    </span>{" "}
+                      </span>{" "}
                     </a>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ function Projects(props) {
                       the store! This community is built to allow collaboration
                       between artists and finds a better home for un-used items
                       rather than throwing them away! Click the 👉🏼 to go to the
-                    app or GitHub to see the code on GitHub!{" "}
+                      app or GitHub to see the code on GitHub!{" "}
                     </p>
                     <p>
                       Technologies used: HTML, CSS, JavaScript, EJS, MongoDB, Axios, GitHub, & Heroku
@@ -153,11 +153,11 @@ function Projects(props) {
                       feature that allows the user to pick a random book of their
                       favorite category from New York Times - Best Seller's list.!
                       Click the 👉🏼 to go to the app or GitHub to see the code on
-                    GitHub!{" "}
+                      GitHub!{" "}
                     </p>
                     <p>
                       Technologies used: HTML, CSS, ReactJS, Google Books & New York Time Bestseller API, NodeJS, MongoDB, Heroku.
-                  </p>
+                    </p>
                   </div>
 
                   <a
@@ -200,12 +200,12 @@ function Projects(props) {
                   <div className="flip-card-back-text">
                     <p>
                       Beige Cashmere is your destination for all your video production & photography needs! Click the 👉🏼 to go to the website or GitHub
-                    to see the code on GitHub!{" "}
+                      to see the code on GitHub!{" "}
 
                     </p>
                     <p>
                       Technologies used: HTML, CSS, ReactJS, GitHub, Vimeo Integration, Email Integration, & Heroku
-                  </p>
+                    </p>
                   </div>
 
                   <a
@@ -234,22 +234,24 @@ function Projects(props) {
               </div>
             </div>
           </div>
-          {/* <div className="projectCardDiv">
+          <div className="projectCardDiv">
             <div className="flip-picture">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
-                    src="picngoimg.png"
+                    src="Netflix_Clone.png"
                     className="project-thumbnail"
                     alt="project thumbnail"
                   />
                 </div>
                 <div className="flip-card-back">
                   <p className="flip-card-back-text">
-                    The PIC-N-GO web application posseses a massive gallery of images generated from the Flickr API. It allows users create a personal account and search for pictures of destinations they want to visit, write notes on the picture for future use, and add them to their own personal bucket list. Click the 👉🏼 to go to the app or GitHub to see the code on GitHub!{" "}
+                    The Netflix web application posseses a massive library of movies whose thumbnails and banners are aggregated from the image.tmdb.org API. It uses movie information provided by image.tmdb.org API in conjunction with api.themoviedb.org API to retrieve movie's trailer if available on YouTube. Click the <span className="applink" role="img" aria-label="Link">
+                      👉🏼
+                    </span> to go to the app or GitHub to see the code on GitHub!{" "}
                   </p>
                   <a
-                    href="https://github.com/alirizvi061/pic-n-go"
+                    href="https://github.com/alirizvi061/fe-netflix"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -257,14 +259,14 @@ function Projects(props) {
                       className="gitLink"
                       src="github-logo.png"
                       alt="github logo"
-                    />{" "}
+                    />
                   </a>
                   <a
-                    href="https://pic-n-go.herokuapp.com/home"
+                    href="https://netflix-clone-b650e.web.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+
                     <span className="applink" role="img" aria-label="Link">
                       👉🏼
                     </span>{" "}
@@ -272,15 +274,16 @@ function Projects(props) {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
+
 
 
         <div>
           <div className="skillsDiv">
             <h1 id="skills" className=" skillsTitle display-3 p-5 text-lg-left">
               Skills
-          </h1>
+            </h1>
           </div>
           <br />
           {images.map((row, index) => {
