@@ -14,20 +14,17 @@ import About from "./components/About";
 import "./App.css";
 import Home from "./components/Home";
 import Navigation from "./components/Navigation";
+import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 function App() {
   return (
     <Container fluid>
-        <Navigation />
+      <Navigation />
         <BrowserRouter>
           <Route exact path="/" component={Home} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/work" component={Projects} />
-          <Route exact path="/contact" component={Contact} />
-        </BrowserRouter>
-        {/* <Footer /> */}
+        </BrowserRouter> 
+      <Footer />
     </Container>
   );
 }

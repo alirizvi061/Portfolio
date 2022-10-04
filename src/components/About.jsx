@@ -4,7 +4,7 @@ import Picture from "./profile-image.PNG";
 class About extends Component {
   render() {
     return (
-      <div class="aboutMePage">
+      <div id="aboutView" class="aboutMePage">
         <h1 className=" aboutTitle">BIO</h1>
         <div className="aboutDiv">
           <p className="aboutPara ">

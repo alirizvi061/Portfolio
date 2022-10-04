@@ -11,9 +11,6 @@ body {
   color: white;
   padding-right: 8em;
   padding-left: 8em;
-  /* padding: 50%;
-  margin-right: 9rem;
-  margin-left: 70px; */
 }
 
 /* Navigation */
@@ -69,6 +66,7 @@ body {
   /* width: 100%; */
   font-size: 4.5em;
   padding: 12%;
+  padding-left: 0;
 }
 
 .Intro_text button,
@@ -91,7 +89,7 @@ body {
 /* Home Page  */
 
 .footer {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
@@ -122,23 +120,29 @@ body {
 }
 
 /* project thumbnail */
-.skillsTitle,
+
+.skillsPage {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 .resumeTitle {
   margin: 3%;
   margin-bottom: 0;
 }
 
 .skillsPics {
-  margin-bottom: 2%;
-  border-radius: 4px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+
+  /* margin-bottom: 2%;
+  border-radius: 4px;
   width: 90%;
   margin-left: 4%;
   background-color: black;
-  padding: 1%;
+  padding: 1%; */
 }
 
 .skillsText {
@@ -153,9 +157,9 @@ body {
   /* margin: 4%; */
   /* display: grid; */
   /* flex-direction: row; */
-  /* max-width: 6rem; */
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 9rem;
+  /* max-width: 100px; */
+  max-height: 9rem;
   /* max-height: 50%; */
 }
 
@@ -172,11 +176,15 @@ body {
     0 22px 70px 4px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3); */
 }
 
+.projectPage {
+  padding: 5%;
+  padding-left: 0;
+}
+
 .projects {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
-  width: 95%;
   /* display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
@@ -264,6 +272,15 @@ body {
 
 /* About Page */
 
+.aboutMePage {
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
+  padding-left: 0;
+  /* margin-top: 10%;
+  margin-right: 0; */
+}
+
 .aboutDiv {
   display: flex;
   flex-direction: row;
@@ -271,8 +288,7 @@ body {
 }
 
 .aboutPara {
-  font-size: 22px;
-  /* margin-top: 50px; */
+  font-size: 24px;
   text-align: left;
 }
 
@@ -280,27 +296,25 @@ body {
   border-radius: 10px;
   width: 30em;
   margin: 3%;
+  margin-top: 0;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
     0 22px 70px 4px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
-.aboutMePage {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10%;
-  margin-right: 0;
-}
-
-.aboutTitle {
+.aboutTitle,
+.projectTitle,
+.skillsTitle,
+.contactTitle {
+  padding-bottom: 5%;
   text-align: left;
   font-size: 5rem;
 }
 
-.skillsDiv,
+/* .skillsDiv,
 .skillsTitle {
   color: black;
   background-color: white;
-}
+} */
 
 .myLinkDiv {
   position: relative;
@@ -347,9 +361,14 @@ body {
 
 /* CONTACT PAGE */
 
+.contactPage {
+  padding-top: 5%;
+}
+
+
 .contact_form_class {
-  width: 100%;
-  padding-top: 5rem;
+  /* width: 100%; */
+  /* padding-top: 5rem; */
   display: flex;
   position: relative;
   flex-wrap: wrap;

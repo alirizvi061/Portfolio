@@ -6,29 +6,10 @@ function Projects(props) {
   console.log(emoji.getName("😍"));
 
 
-  const images = [
-    [
-      { pic: "HTML5_Badge_512.png", title: "HTML" },
-      { pic: "cssImage.png", title: "CSS" },
-      { pic: "JS-logo.png", title: "JavaScript" },
-      { pic: "react-logo.png", title: "React" },
-      { pic: "jquery-icon.png", title: "jQuery" },
-      { pic: "python-logo.png", title: "Python" },
-      { pic: "mongo-logo.png", title: "MongoDB" },
-      { pic: "node-logo.png", title: "NodeJS" },
-      { pic: "sql-logo.png", title: "SQL" },
-      { pic: "bootstrap-logo.png", title: "Bootstrap" },
-      { pic: "express-logo.jpeg", title: "ExpressJS" },
-      { pic: "flask-logo.png", title: "Flask" },
-    ]
-  ]
-
   return (
     <>
-      <header></header>
-      <main>
-        <h1 className=" aboutTitle display-3 p-5 text-lg-left">Projects</h1>
-        <br />
+      <main id="projectView" className="projectPage">
+        <h1 className="projectTitle">Projects</h1>
         <div className="projects">
           <div className="projectCardDiv">
             <div className="flip-picture">
@@ -183,7 +164,7 @@ function Projects(props) {
               </div>
             </div>
           </div>
-          <div className="projectCardDiv">
+          {/* <div className="projectCardDiv">
             <div className="flip-picture">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -230,7 +211,7 @@ function Projects(props) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="projectCardDiv">
             <div className="flip-picture">
               <div className="flip-card-inner">
@@ -269,37 +250,6 @@ function Projects(props) {
               </div>
             </div>
           </div>
-        </div>
-
-        <div>
-          <div className="skillsDiv">
-            <h1 id="skills" className=" skillsTitle display-3 p-5 text-lg-left">
-              Skills
-            </h1>
-          </div>
-          <br />
-          {images.map((row, index) => {
-            return (
-              <>
-                <div className="skillsPics" key={index}>
-                  {row.map((picture) => {
-                    return (
-                      <div className="skillsText">
-                        <div>
-                          <img
-                            src={picture.pic}
-                            className="language-thumbnail"
-                            alt="project thumbnail"
-                          />
-                        </div>
-                        <h5 className="flip-card-back-text">{picture.title}</h5>
-                      </div>
-                    )
-                  })}
-                </div>
-              </>
-            )
-          })}
         </div>
       </main>
     </>

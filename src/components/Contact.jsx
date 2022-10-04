@@ -22,8 +22,8 @@ export default class Contact extends Component {
 
 
         return (
-            <div>
-                <h1 className="aboutTitle">Contact Me!</h1>
+            <div id="contactView" className='contactPage'>
+                <h1 className="contactTitle">Contact Me!</h1>
                 <div>
                     <form class="contact_form_class" id="contactForm" onSubmit={sendEmail}>
                         <input class="contactTextBox" type="text" placeholder="Name" name="Name" />

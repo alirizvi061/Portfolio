@@ -4,7 +4,10 @@ import { Component } from 'react';
 import Intro from './Intro';
 import About from './About';
 import Projects from './Projects';
+import Skills from './Skills';
 import Contact from './Contact';
+import Navigation from './Navigation';
+import Footer from './Footer';
 
 class Home extends Component {
     render() {
@@ -14,6 +17,7 @@ class Home extends Component {
                 <Intro />
                 <About />
                 <Projects />
+                <Skills />
                 <Contact />
                 {/* </div> */}
             </>

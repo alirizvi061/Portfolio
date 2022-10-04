@@ -7,7 +7,7 @@ class About extends Component {
         <p>Hi,</p>
         <p>I'm Ali,</p>
         <p>Full-Stack Software Engineer</p>
-        <a href="/contact"><button>Contact Me!</button></a>
+        <a href="#contactView"><button>Contact Me!</button></a>
       </div>
     );
   }
