@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap");
+
 .App {
   text-align: center;
 }
@@ -8,7 +9,7 @@ body {
   font-family: "Dosis", sans-serif;
   background-color: #1d1d1d;
   color: white;
-  padding-right: 8em; 
+  padding-right: 8em;
   padding-left: 8em;
   /* padding: 50%;
   margin-right: 9rem;
@@ -16,7 +17,7 @@ body {
 }
 
 /* Navigation */
-.navigation{
+.navigation {
   position: fixed;
   z-index: 10;
   background-color: #181818;
@@ -29,46 +30,49 @@ body {
   flex-direction: column;
 }
 
-.nav_links_div{
+.nav_links_div {
   display: flex;
   flex-direction: column;
   text-decoration-color: white;
 }
 
-.nav_links_div a{
+.nav_links_div a {
   color: #909096;
   border-bottom: 3px solid #282828;
   text-decoration: none;
   line-height: 5rem;
 }
 
-.nav_links_div a:hover{
+.nav_links_div a:hover {
   color: #0afffa;
   transition: color .3s, background-color .3s;
   transition-duration: 0.3s, 0.3s;
 }
-.logo{
+
+.logo {
   max-width: 100%;
   height: auto;
   border: 1px solid #0afffa;
 }
+
 /* Navigation */
 
 
 /* Home Page  */
-.Intro_text{
+.Intro_text {
   /* width: 70vw; */
   display: flex;
   position: relative;
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: column;
-  width: 100%;
-  font-size: 44px;
-  /* padding: 10%; */
+  /* width: 100%; */
+  font-size: 4.5em;
+  padding: 12%;
 }
 
-.Intro_text button, .contact_form_class input[type="submit"]{
+.Intro_text button,
+.contact_form_class input[type="submit"] {
   background-color: #1d1d1d;
   color: #0afffa;
   border: 3px solid #0afffa;
@@ -77,11 +81,13 @@ body {
   font-size: 22px;
 }
 
-.Intro_text button:hover, .contact_form_class input[type="submit"]:hover{
+.Intro_text button:hover,
+.contact_form_class input[type="submit"]:hover {
   color: #1d1d1d;
   background-color: #0afffa;
   transition-duration: 0.3s, 0.3s;
 }
+
 /* Home Page  */
 
 .footer {
@@ -98,13 +104,14 @@ body {
   justify-content: center;
 } */
 
-#linkedIn{
+#linkedIn {
   width: 35px;
 }
 
-#email{
+#email {
   width: 40px;
 }
+
 #gitHub {
   width: 70px;
 }
@@ -134,7 +141,7 @@ body {
   padding: 1%;
 }
 
-.skillsText{
+.skillsText {
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -166,7 +173,7 @@ body {
 }
 
 .projects {
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 95%;
@@ -277,14 +284,14 @@ body {
     0 22px 70px 4px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
-.aboutMePage{
+.aboutMePage {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
   margin-right: 0;
 }
 
-.aboutTitle{
+.aboutTitle {
   text-align: left;
   font-size: 5rem;
 }
@@ -340,15 +347,16 @@ body {
 
 /* CONTACT PAGE */
 
-.contact_form_class{
-    width: 100%;
-    padding-top: 5rem; 
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;    
+.contact_form_class {
+  width: 100%;
+  padding-top: 5rem;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
 }
 
-.contact_form_class input[type="email"], .contact_form_class input[type="text"]{
+.contact_form_class input[type="email"],
+.contact_form_class input[type="text"] {
   height: 50px;
   border-radius: 6px;
   box-sizing: border-box;
@@ -361,7 +369,7 @@ body {
   margin: .5rem;
 }
 
-.contact_form_class textarea[type="text"]{
+.contact_form_class textarea[type="text"] {
   overflow: auto;
   border-radius: 6px;
   box-sizing: border-box;
@@ -392,6 +400,7 @@ body {
   .projectCardDiv {
     margin: 3%;
   }
+
   .aboutDiv {
     margin-top: 0;
     display: flex;
@@ -399,16 +408,16 @@ body {
     flex-wrap: wrap-reverse;
     align-items: center;
   }
- 
+
   .resumePic {
     width: 90vw;
   }
+
   .aboutPara {
     width: 90vw;
   }
+
   .skillsPics {
     margin-bottom: 4%;
   }
 }
-
-

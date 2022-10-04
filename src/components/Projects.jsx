@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../App.css";
 
 function Projects(props) {
@@ -224,7 +223,6 @@ function Projects(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-
                     <span className="applink" role="img" aria-label="Link">
                       👉🏼
                     </span>
