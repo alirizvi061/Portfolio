@@ -6,8 +6,7 @@ import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
-import Navigation from './Navigation';
-import Footer from './Footer';
+
 
 class Home extends Component {
     render() {
