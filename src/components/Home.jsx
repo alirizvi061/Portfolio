@@ -5,7 +5,6 @@ import Intro from './Intro';
 import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
-import Contact from './Contact';
 
 
 class Home extends Component {
@@ -17,7 +16,6 @@ class Home extends Component {
                 <About />
                 <Projects />
                 <Skills />
-                <Contact />
                 {/* </div> */}
             </>
         )
