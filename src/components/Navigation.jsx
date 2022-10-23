@@ -11,9 +11,9 @@ class Navigation extends Component {
                     </a>
                 </div><br />
                 <nav class="nav_links_div">
-                    <a href="#aboutView" class="link_text">About</a>
-                    <a href="#projectView" class="link_text">Work</a>
-                    <a href="#skillView" class="link_text">My Skills</a>
+                    <a href="/#aboutView" class="link_text">About</a>
+                    <a href="/#projectView" class="link_text">Work</a>
+                    <a href="/#skillView" class="link_text">My Skills</a>
                     <a href="/contact" class="link_text">Contact</a>
                 </nav>
             </div>
