@@ -61,34 +61,60 @@ body {
 
 
 /* Home Page  */
+.Intro_text_component {
+  overflow: hidden;
+}
+
 .Intro_text {
-  /* width: 70vw; */
+  animation: 2s alternate slidein;
   display: flex;
   position: relative;
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: column;
-  /* width: 100%; */
   font-size: 4.5em;
-  padding: 12%;
-  padding-left: 0;
+  margin: 3.2em 0 3.8em 0;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 
 .Intro_text button,
 .contact_form_class input[type="submit"] {
-  background-color: #1d1d1d;
+  background-color: #0afffa;
   color: #0afffa;
   border: 3px solid #0afffa;
   max-width: 200px;
   height: 50px;
   font-size: 22px;
+  position: relative;
+  padding: 2px 5px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1d1d1d), color-stop(50%, #0afffa));
+  background: -webkit-linear-gradient(left, #1d1d1d 50%, #0afffa 50%);
+  background: -moz-linear-gradient(left, #1d1d1d 50%, #0afffa 50%);
+  background: linear-gradient(to right, #1d1d1d 50%, #0afffa 50%);
+  background-size: 200% 100%;
+  background-position: 0 0;
+  -webkit-transition: background-position .3s ease-out;
+  -moz-transition: background-position .3s ease-out;
+  transition: background-position .3s ease-out;
 }
 
 .Intro_text button:hover,
 .contact_form_class input[type="submit"]:hover {
+  background-position: -100% 0;
   color: #1d1d1d;
-  background-color: #0afffa;
-  transition-duration: 0.3s, 0.3s;
+
 }
 
 /* Home Page  */
@@ -280,29 +306,46 @@ body {
 .aboutMePage {
   display: flex;
   flex-direction: column;
-  padding: 4%;
-  padding-left: 0;
+  padding: 8em 0 5em 0;
 }
 
 .aboutDiv {
+  animation: 2s alternate aboutslidein;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+
 .aboutPara {
-  font-size: 24px;
+  font-size: 1.8em;
   text-align: left;
+  width: 35em;
+
 }
 
 .profilePic {
-  border-radius: 10px;
-  width: 30em;
+  border-radius: 8px;
+  width: 35em;
   margin: 3%;
   margin-top: 0;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
     0 22px 70px 4px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
 }
+
+@keyframes aboutslidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* About Page */
 
 .aboutTitle,
 .projectTitle,
