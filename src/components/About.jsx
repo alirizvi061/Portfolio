@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Picture from "./profile-image.PNG";
-
 class About extends Component {
   render() {
     return (
@@ -13,7 +11,7 @@ class About extends Component {
             applications... you name it I'll figure out how to make it! I consistently push myself to focus on honing my full-stack development skills by building
             applications using various technologies. Check out my <a href="/work">projects</a> page for more info!
           </p>
-          <img src={Picture} className="profilePic" alt="profile" />
+          <img src="profile-image.PNG" className="profilePic" alt="profile" />
         </div>
       </div>
     );
