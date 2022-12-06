@@ -164,31 +164,22 @@ function Projects(props) {
               </div>
             </div>
           </div>
-          {/* <div className="projectCardDiv">
+          <div className="projectCardDiv">
             <div className="flip-picture">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
-                    src="beigecashmerewebsite.png"
+                    src="picngoimg.png"
                     className="project-thumbnail"
                     alt="project thumbnail"
                   />
-                  <br />
                 </div>
                 <div className="flip-card-back">
-                  <div className="flip-card-back-text">
-                    <p>
-                      Beige Cashmere is your destination for all your video production & photography needs! Click the <span className="applink" role="img" aria-label="Link">👉🏼</span> to go to the website or GitHub
-                      to see the code on GitHub!
-
-                    </p>
-                    <p>
-                      Technologies used: HTML, CSS, ReactJS, GitHub, Vimeo Integration, Email Integration, & Heroku
-                    </p>
-                  </div>
-
+                  <p className="flip-card-back-text">
+                    The PIC-N-GO web application posseses a massive gallery of images generated from the Unsplash API. It allows users create a personal account and search for pictures of destinations they want to visit, write notes on the picture for future use, and add them to their own personal bucket list. Click the <span role="img" aria-label="Link">👉🏼</span> to go to the app or GitHub to see the code on GitHub!
+                  </p>
                   <a
-                    href="https://github.com/alirizvi061/beigecashmere"
+                    href="https://github.com/alirizvi061/pic-n-go"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -196,22 +187,22 @@ function Projects(props) {
                       className="gitLink"
                       src="github-logo.png"
                       alt="github logo"
-                    />
+                    />{" "}
                   </a>
-
                   <a
-                    href="http://www.beigecashmere.com/"
+                    href="https://shiny-rugelach-94ba83.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    {" "}
                     <span className="applink" role="img" aria-label="Link">
                       👉🏼
-                    </span>
+                    </span>{" "}
                   </a>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div> 
           <div className="projectCardDiv">
             <div className="flip-picture">
               <div className="flip-card-inner">

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <div id="aboutView" class="aboutMePage">
+      <div id="aboutView" className="aboutMePage">
         <h1 className=" aboutTitle">BIO</h1>
         <div className="aboutDiv">
           <p className="aboutPara ">

@@ -11,12 +11,10 @@ class Home extends Component {
     render() {
         return (
             <>
-                {/* <div class="home_bio"> */}
                 <Intro />
                 <About />
                 <Projects />
                 <Skills />
-                {/* </div> */}
             </>
         )
     }
