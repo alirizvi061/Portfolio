@@ -44,7 +44,6 @@ export default class Contact extends Component {
             }
             
             if(submit){
-                alert("submitting email")
                 emailjs.sendForm(serviceID, templateID, "#contactForm", userID)
                 .then((result) => {
                     console.log(result)
